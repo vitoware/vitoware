@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vitoware | Página Tecnológica</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Orbitron', sans-serif;
+            background-color: #000000; /* Fondo negro */
+            color: #00ffe1;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #1c1f2a;
+            border-bottom: 2px solid #00ffe1;
+            border-radius: 10px;
+        }
+
+        header img {
+            max-width: 200px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        h1, h2 {
+            margin: 10px 0;
+        }
+
+        .subtitulo {
+            font-size: 1.2em;
+            color: #ccc;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 30px auto;
+        }
+
+        .card {
+            background: #1a1d26;
+            border: 1px solid #00ffe1;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px #00ffe1aa;
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: scale(1.02);
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            border: 2px solid #00ffe1;
+            color: #00ffe1;
+            background: transparent;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background 0.3s, color 0.3s;
+        }
+
+        .button:hover {
+            background: #00ffe1;
+            color: #000000;
+        }
+
+        footer {
+            text-align: center;
+            border-top: 2px solid #00ffe1;
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #1c1f2a;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="logo-vitoware.jpg" alt="Logo Vitoware">
+        <h1>Vitoware</h1>
+        <p class="subtitulo">Software & Hardware</p>
+    </header>
+
+    <main>
+        <div class="card">
+            <h2>🚀 Sobre nosotros</h2>
+            <p>Somos Vitoware, apasionados por la innovación en tecnología. Creamos soluciones de software y hardware modernas.</p>
+            <a href="#" class="button">Conócenos</a>
+        </div>
+
+        <div class="card">
+            <h2>📬 Contacto</h2>
+            <p>Correo: <strong>contacto@vitoware.com</strong></p>
+            <a href="mailto:contacto@vitoware.com" class="button">Enviar correo</a>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2025 Vitoware | Todos los derechos reservados</p>
+    </footer>
+
+</body>
+</html>
